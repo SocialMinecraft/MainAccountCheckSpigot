@@ -1,0 +1,4 @@
+name: MainAccountCheckSpigot
+version: '1.0-SNAPSHOT'
+main: club.somc.mainAccountCheckSpigot.MainAccountCheckSpigot
+api-version: '1.21'
