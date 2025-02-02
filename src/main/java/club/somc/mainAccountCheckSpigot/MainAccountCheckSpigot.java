@@ -23,7 +23,7 @@ public final class MainAccountCheckSpigot extends JavaPlugin {
             throw new RuntimeException(e);
         }
 
-        getServer().getPluginManager().registerEvents(new PlayerLogin(nc), this);
+        getServer().getPluginManager().registerEvents(new PlayerLogin(nc, getLogger()), this);
     }
 
     @Override
